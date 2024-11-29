@@ -1,0 +1,49 @@
+# Virtual Environment
+venv/
+.env/
+
+# Bytecode dan cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# File log dan debug
+*.log
+*.out
+*.err
+
+# Konfigurasi environment
+*.env
+.env.*
+
+# File build dan distribusi
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# File testing
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# File database lokal
+*.sqlite3
+*.db
+
+# File editor atau sistem operasi
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# File dari Jupyter Notebook
+.ipynb_checkpoints/
+
+# File lock untuk package manager
+Pipfile.lock
+poetry.lock
